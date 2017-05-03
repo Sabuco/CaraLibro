@@ -187,7 +187,7 @@ Template.commentTemaplte.events({
 
 
 
-//Need this package meteor add momentjs:moment
+//Es necesario el paquete meteor add momentjs:moment
 Template.commentTemaplte.helpers({
   /**
      * @summary Funcion para rectificar la fecha del comentario
