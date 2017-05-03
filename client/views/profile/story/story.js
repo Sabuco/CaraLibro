@@ -4,7 +4,7 @@ Template.story.events({
      * @summary Actualiza la colleccion stories con un me gusta en una historia
      * @isMethod true
      * @locus Template.story.events
-     * @param  {Object} el evento necesita el evento para actualizarse
+     * @param  {Object} e el evento necesita el evento para actualizarse
      */
 
     'click .like':function(e) {
@@ -24,7 +24,7 @@ Template.story.events({
        * @summary borra una story
        * @isMethod true
        * @locus Template.story.events
-       * @param  {Object} Se neceseita el evento para borrarlo
+       * @param  {Object} e necesita el evento para borrarlo
        */
     'click .delete-story':function(e){
       e.preventDefault();
@@ -37,7 +37,7 @@ Template.story.events({
        * @summary Evento de enviar. Añade un comentario en una story
        * @isMethod true
        * @locus Template.story.events
-       * @param  {Object} Se necesita evento para añadir
+       * @param  {Object} event necesita evento para añadir
        */
     'submit .comment-story':function(event){
       event.preventDefault();
