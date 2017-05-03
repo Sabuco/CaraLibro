@@ -109,7 +109,7 @@ Template.story.helpers({
     },
 
     /**
-       * @summary Function to refactor the date of the story
+       * @summary Funcion para cambiar la fecha de la story
        * @isMethod true
        * @locus Template.story.helpers
        * @param  {Date} date necesita la fecha de la story para cambiarla y mostrarla
